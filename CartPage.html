@@ -1,0 +1,191 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+
+    <title>Your Cart</title>
+
+    <link rel="stylesheet" type="text/css" href="CSS/Stylesheet 2.css" />
+    <link rel="stylesheet" type="text/css" href="CSS/Stylesheet 1.css" />
+    <link rel="stylesheet" type="text/css" href="CSS/Stylesheet 5.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+
+</head>
+<body>
+    <div id="header">
+        <a href="Homepage.html"><img src="../Resources/Logo2.png" alt="Logo" /></a>
+        <div id="cart">
+            <a href="CartPage.html"><span>0 JOD</span><i class="fas fa-shopping-cart"></i></a>
+        </div>
+
+        <a href="Loginpage.html" target="_blank"><i class="far fa-user" id="user"></i><span id="three">Login</span></a>
+    </div>
+    <div class="clear"></div>
+
+    <div id="mainCart">
+        <h2>Your cart details</h2>
+        <div id="orderItemsContainer">
+            <table class="order-items-table" border="0">
+                <tr class="order-items-header">
+                    <th>Cover</th>
+                    <th>Name</th>
+                    <th>Author</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                    <th>SubTotal</th>
+                </tr>
+                <tr class="order-item-row">
+
+                    <td>
+                        <a href="">
+                            <img height="150" width="100" src="../Resources/TheWorldOfCover.png">
+                        </a>
+                    </td>
+                    <td>
+
+                        <a href="">
+                            <span class="order-item-text">The World Of Abstract Art</span>
+                        </a>
+                    </td>
+                    <td>
+
+                        <a href="">
+                            <span class="order-item-text">Emily Robbins</span>
+                        </a>
+                    </td>
+                    <td>
+                        <span class="order-item-text">2</span>
+                    </td>
+                    <td>
+                        <span class="order-item-text">50.00</span>
+                    </td>
+                    <td>
+                        <span class="order-item-text">100.00</span>
+                    </td>
+                    <td><button class="remove">  <i class="fas fa-times-circle x"></i>  </button></td>
+                </tr>
+                <tr class="order-item-row">
+
+                    <td>
+                        <a href="">
+                            <img height="150" width="100" src="../Resources/TheSunCover.png">
+                        </a>
+                    </td>
+                    <td>
+
+                        <a href="">
+                            <span class="order-item-text">The Sun, The Moon, The Stars</span>
+                        </a>
+                    </td>
+                    <td>
+
+                        <a href="">
+                            <span class="order-item-text">Junot Diaz</span>
+                        </a>
+                    </td>
+                    <td>
+                        <span class="order-item-text">1</span>
+                    </td>
+                    <td>
+                        <span class="order-item-text">40.00</span>
+                    </td>
+                    <td>
+                        <span class="order-item-text">40.00</span>
+                    </td>
+                    <td><button class="remove">  <i class="fas fa-times-circle x"></i>  </button></td>
+                </tr>
+                <tr class="order-item-row">
+
+                    <td>
+                        <a href="">
+                            <img height="150" width="100" src="../Resources/TheCrimeCover.jpg">
+                        </a>
+                    </td>
+                    <td>
+
+                        <a href="">
+                            <span class="order-item-text">Crime And Punishment</span>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="">
+                            <span class="order-item-text">Fyodor Dostoevsky</span>
+                        </a>
+                    </td>
+                    <td>
+                        <span class="order-item-text">5</span>
+                    </td>
+                    <td>
+                        <span class="order-item-text">5.00</span>
+                    </td>
+                    <td>
+                        <span class="order-item-text">25.00</span>
+                    </td>
+                    <td><button class="remove">  <i class="fas fa-times-circle x"></i>  </button></td>
+
+                </tr>
+                <tr>
+                    <td><br /><br /><br /></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr class="lastRows">
+
+                    <td></td>
+
+                    <td><br />Number of items you have in your cart:<br /><br /> </td>
+
+                    <td></td>
+
+                    <td>{NUMBER}</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr class="lastRows">
+
+                    <td></td>
+
+                    <td><br />Total price:<br /><br /> </td>
+
+                    <td></td>
+
+                    <td>{ PRICE }</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+            <br /> <br />
+            <img src="../Resources/cart.png" class="books" />
+            <button id="checkout">Checkout</button>
+            <div class="clear"></div>
+
+
+        </div>
+
+
+    </div>
+    <div class="clear"></div>
+    <footer>
+        <div id="contactUs">
+            <span>Contact Us</span>  <br /><br />
+            <a href="https://twitter.com/twitterbooks?lang=en"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.facebook.com/BuzzFeedBooks/"> <i class="fab fa-facebook-square"></i></a>
+            <a href="https://www.instagram.com/explore/tags/book/?hl=en"><i class="fab fa-instagram"></i></a>
+        </div>
+        <i class="far fa-copyright" id="copyfont"></i>
+        <span id="Copyrights">2019 All Rights Reserved</span>
+        <div id="payment-options">
+            <span>We accept these payment methods:</span>
+            <br />
+            <br />
+            <img src="../Resources/payment-options.png" alt="Payment-options" />
+        </div>
+        <div class="clear"></div>
+    </footer>
+
+</body>
+</html>

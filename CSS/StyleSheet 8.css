@@ -1,0 +1,84 @@
+﻿* {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+#header,footer{
+   
+    background-color:#191927;
+   color:white;
+}
+#header,#div1,#emptyDiv,button#logout,button#profile {
+    height: 70px;
+}
+/*Inside the header div*/
+#header img{
+    width:118px;
+    height:70px;
+}
+i {
+    font-size: 25px;
+}
+#env,#Help {
+ position:relative;
+ bottom:23px;
+  
+}
+#one,#two{
+    font-size:20px;
+    position:relative;
+    bottom:25px;
+}
+#Help{
+    position:relative;
+    left:45px;
+}
+#two{
+    position:relative;
+    left:50px;
+}
+
+#cart{
+    float: right;
+    position: relative;
+    top: 20px;
+}
+
+#cart {
+    position: relative;
+    right: 500px;
+    top: 2px;
+    padding: 20px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#header a {
+    color: white;
+}
+
+    #header a:hover {
+        opacity: 0.8;
+    }
+
+a span{
+    font-size: 20px;
+}
+
+button#logout, button#profile {
+    font-size: 20px;
+    background-color: #191927;
+    width: 140px;
+    float: right;
+    position: relative;
+    left: 90px;
+    border: none;
+    color: white;
+}
+ 
+button#logout:hover, button#profile:hover {
+    background-color: #8eb5ef;
+}
+#profile span{
+    margin:10px;
+}

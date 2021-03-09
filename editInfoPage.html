@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Billing Addresses</title>
+    <link rel="stylesheet" type="text/css" href="CSS/Stylesheet 1.css" />
+    <link rel="stylesheet" type="text/css" href="CSS/Stylesheet 6.css" />
+    <link rel="stylesheet" type="text/css" href="CSS/Stylesheet 4.css" />
+    <link rel="stylesheet" type="text/css" href="CSS/Stylesheet 7.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+<body id="BAPage">
+
+    <div id="header">
+        <a href="Homepage.html"><img src="../Resources/Logo2.png" alt="Logo" /></a>
+        <div id="cart">
+            <a href="CartPage.html"><span>0 JOD</span><i class="fas fa-shopping-cart"></i></a>
+        </div>
+
+        <a href="Loginpage.html" target="_blank"><i class="far fa-user" id="user"></i><span id="three">Login</span></a>
+    </div>
+
+    <form>
+        <div id="editHeader"> <h2>Edit your profile settings</h2> </div>
+        <div id="userInfo">
+            <h3><i class="far fa-address-card"></i></h3>
+            <input type="text" name="name" id="name" placeholder="    Name" />
+            <br /><br />
+            <input type="email" name="email" id="email" placeholder="    Email" />
+            <br /><br />
+            <input type="password" name="password" id="password" placeholder="    Password" />
+            <br /><br />
+            <input type="text" name="phoneNum" id="phoneNum" placeholder="    Phone Number" />
+            <br /><br />
+        </div>
+        <div id="billingAddress">
+            <h3>Your billing Info</h3>
+            <input type="text" name="Address1" id="Address1" placeholder="    Address Line 1" />
+            <br /><br />
+            <input type="text" name="Address2" id="Address2" placeholder="    Address Line 2" />
+            <br /><br />
+            <input type="text" name="Country" id="Country" placeholder="    Country" />
+            <br /><br />
+            <input type="text" name="City" id="City" placeholder="    City" />
+            <br /><br />
+            <input type="text" name="zCode" id="zCode" placeholder="    Zip Code" />
+            <br /><br />
+        </div>
+        <div id="ccInfo">
+            <h3>Your Credit Card Info</h3>
+            <span>The type of your Credit Card:</span> <br /><br />
+            <input type="radio" name="card" />Visa <br />
+            <input type="radio" name="card" />MasterCard <br />
+            <input type="radio" name="card" />American Express <br /><br />
+
+            <input type="number" name="ccNum" id="ccNum" placeholder="    Credit Card Number" />
+            <br /><br />
+            <input type="date" name="eDate" id="eDate" />
+            <br /><br />
+            <input type="text" name="ccName" id="ccName" placeholder="    Name on Card" />
+            <br /><br />
+        </div>
+        <div id="info">
+            <h3>
+                <i class="far fa-address-card"></i>
+            </h3>
+            <span>Gender:</span> <br />
+            <input type="radio" name="gender" /> Female <br />
+            <input type="radio" name="gender" /> Male<br />
+                <br />
+            <label>Your Birthdate: <input type="date" name="bDate" id="bDate" style="width:120px;" /></label>
+                <br /><br />
+            <label>Phone Number: <input type="number" name="pNum" id="pNum" placeholder=" Phone Number" style="width:120px; font-size:small;" /> </label>
+                          <br /><br />
+</div>
+        <div class="clear"></div>
+        <button>Submit Changes</button>
+    </form>
+    <div class="clear"></div>
+    <footer>
+        <div id="contactUs">
+            <span>Contact Us</span>  <br /><br />
+            <a href="https://twitter.com/twitterbooks?lang=en"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.facebook.com/BuzzFeedBooks/"> <i class="fab fa-facebook-square"></i></a>
+            <a href="https://www.instagram.com/explore/tags/book/?hl=en"><i class="fab fa-instagram"></i></a>
+        </div>
+        <i class="far fa-copyright" id="copyfont"></i>
+        <span id="Copyrights">2019 All Rights Reserved</span>
+        <div id="payment-options">
+            <span>We accept these payment methods:</span>
+            <br />
+            <br />
+            <img src="../Resources/payment-options.png" alt="Payment-options" />
+        </div>
+        <div class="clear"></div>
+    </footer>
+</body>
+</html>

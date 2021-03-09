@@ -1,0 +1,243 @@
+﻿* {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+#header,footer{
+   
+    background-color:#191927;
+   color:white;
+}
+#header,#div1,#emptyDiv {
+    height: 70px;
+}
+/*Inside the header div*/
+#header img{
+    width:118px;
+    height:70px;
+}
+#three {
+    left: 20px;
+    font-size: 20px;
+}
+
+a span {
+    font-size: 20px;
+}
+i {
+    font-size: 25px;
+}
+#env,#Help {
+ position:relative;
+ bottom:23px;
+  
+}
+#one,#two{
+    font-size:20px;
+    position:relative;
+    bottom:25px;
+}
+#Help{
+    position:relative;
+    left:45px;
+}
+#two{
+    position:relative;
+    left:50px;
+}
+
+#user, #three,#cart {
+    float: right;
+    position: relative;
+    top: 20px;
+}
+#user{
+    position:relative;
+    right:70px;  
+}
+
+#cart {
+    position: relative;
+    right: 290px;
+    top: 2px;
+    background-color: #8eb5ef;
+    padding: 20px;
+}
+/*End of the header div*/
+
+
+/*The Search div*/
+#search {
+    height: 120px;
+    width: 100px;
+}
+ #search img {
+        height: 120px;
+       
+    }
+    #search form input {
+        width: 300px;
+        padding: 15px;
+        position: relative;
+        left: 210px;
+        bottom: 60px;
+        border: 2px solid #8eb5ef;
+        border-radius: 52px;
+    }
+    #search > img {
+        float: right;
+    }
+
+    
+    /*For div main*/
+#Main {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(239, 239, 239, 0.91);
+}
+
+a{
+text-decoration:none;
+color:black;
+ }
+ #header a{
+     color: white;
+}
+
+ #header a:hover {
+    opacity: 0.8;
+ }
+
+#Sales {
+    width: 300px;
+    height: 415px;
+    float: left;
+    background-color: white;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    position:relative;
+    bottom:420px;
+    left:15px;
+}
+.clear {
+    clear: both;
+}
+#middle
+{
+    width:50%;
+   
+}
+
+#middle, #Categories,#recommends{
+    background-color: white;
+    float: left;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    margin-left: 10px;
+}
+
+    #Categories:first-child {
+        color: #8eb5ef;
+    }
+
+#Categories ul{
+    list-style:none;
+    margin-right:6px;
+}
+ #Categories ul li {
+        border-bottom: 1px solid rgba(222, 218, 218, 0.78);
+        padding:5px;
+    }
+    #Categories ul li:hover {
+        background-color: rgba(142, 181, 239, 0.63);
+    }
+
+    #Categories div, #div1 {
+        font-size: 30px;
+        text-align: center;
+        color: #8eb5ef;
+        
+    }
+/*Iframe & It's pages Designs */
+        #div1,#middle{
+            width:900px;
+        }
+        iframe, #page1 {
+            border: hidden;
+            width: 880px;
+            height: 730px;
+        }
+
+   .itemDiv:hover{
+        opacity: 0.8;
+    }
+
+   nav{
+       text-align:center;
+   }
+
+    nav a:hover {
+        background-color: rgba(239, 239, 239, 0.91);
+    }
+
+    .pages{
+    margin: 10px;
+    position: relative;
+    bottom: 20px;
+    padding: 10px;
+    height:900px;
+    
+    background-color: white;
+    text-align: center;
+}
+    }
+    /*For the footer*/
+    footer {
+        font-size: smaller;
+        padding: 7px;
+    }
+#Copyrights, #copyfont {
+    position: relative;
+    left: 40%;
+    top: 10px;
+}
+
+#copyfont {
+    position: relative;
+    top:12px;
+}
+
+#payment-options{
+    float:right;
+}
+
+#contactUs{
+   float:left;
+   padding:10px;
+}
+#contactUs a{
+    color:white;
+}
+.fa-twitter:hover {
+        color: #3c98f7;
+    }
+
+.fa-facebook-square:hover{
+    color:#0543a6;
+}
+
+.fa-instagram:hover{
+    color:#f529f5;
+}
+#recommends {
+    background-color: white;
+    display: inline;
+    height: 300px;
+    width: 200px;
+    text-align: center;
+}
+
+    #recommends img, #recommends p {
+        margin: 10px;
+    }
+#recommends img {
+    height: 200px;
+    
+}

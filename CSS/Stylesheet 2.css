@@ -1,0 +1,89 @@
+﻿#RegisterHeader {
+    text-align: center;
+}
+
+#h1 {
+    text-align: center;
+    margin-right: 70px;
+}
+
+form {
+    background-image: url("Resources/Books2.jpg");
+    border: 3px solid #f1f1f1;
+}
+
+input[type=text], input[type=password], input[type=email] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0px 0px 55px;
+    display: inline-block;
+    border: 1px solid #8eb5ef;
+    border-radius: 52px;
+    box-sizing: border-box;
+}
+
+input[type=email] {
+    margin-left: 80px;
+}
+
+button#login, button#submit {
+    background-color: #8eb5ef;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0px 0px 130px;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    border-radius: 52px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.imgcontainer, #books2 {
+    width: auto;
+    margin: 0px 60px 0px 50px;
+}
+
+img#books2 {
+    height: 400px;
+}
+
+.container {
+    background-color: white;
+    padding: 16px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+span.forgot, #remember {
+    margin-left: 20px;
+    text-align: right;
+}
+
+span.forgot a {
+    text-decoration: none;
+    color: black;
+}
+
+span.forgot a:hover {
+    color: red;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+
+@media screen and (max-width: 300px) {
+    span .forgot {
+        display: block;
+        float: none;
+    }
+}
+
+.container #register {
+    float: right;
+}
+
+    .container #register a:hover {
+        color: #8eb5ef;
+    }
